@@ -1,0 +1,32 @@
+<!--<div class="card">-->
+<!--<div class="col-xs-4" ng-repeat="prod in products">-->
+<!--<div class="view overlay hm-white-slight">-->
+<!--<div class="card-block">-->
+<!--<a href="#/cart">-->
+<!--<h4 class="card-title">{{prod.name}}</h4>-->
+<!--<img src="{{prod.image}}" height="200" width="250" alt="image">-->
+<!--</a>-->
+<!--<a href="#" class="btn btn-primary">Add TO CART</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--<br><br>-->
+<!--</div>-->
+<!--</div>-->
+
+<div class="card">
+    <div class="col-xs-4" ng-repeat="prod in productslist">
+        <div class="view overlay hm-white-slight">
+            <div class="card-block">
+                <h4 class="card-title">{{prod.title}}</h4>
+                <a href="#/productview/{{prod.title}}">
+                    <img src="{{prod.featured_src}}" height="200" width="250" alt="image">
+                </a>
+                <p>{{prod.regular_price}}</p>
+
+                <!--<add-to-cart product_id="{{prod.id}}" ng-click="addToCart()"></add-to-cart>-->
+                <add-to-cart product="prod" ng-click="addToCart()"></add-to-cart>
+            </div>
+        </div>
+        <br><br>
+    </div>
+</div>

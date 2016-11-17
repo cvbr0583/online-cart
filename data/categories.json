@@ -1,0 +1,9 @@
+[
+  {"id":"1","name":"Puffs","image":"assects/images/pufs.jpg"},
+  {"id":"2","name":"Burgers","image":"assects/images/bgrs.jpg"},
+  {"id":"3","name":"Snacks","image":"assects/images/snks.jpg"},
+  {"id":"4","name":"Soft Drinks","image":"assects/images/drinks.jpg"},
+  {"id":"5","name":"Ice Creams","image":"assects/images/ice.jpg"},
+  {"id":"6","name":"Sweets","image":"assects/images/sweets.jpg"}
+
+]

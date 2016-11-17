@@ -1,0 +1,19 @@
+.well{
+    height: 100px;
+    margin-bottom: 0px;
+}
+.cart{
+    margin:10px;
+}
+.style{
+    font-family: 'Lobster Two', cursive;
+}
+.cartbtn{
+    margin-top: -12px;
+}
+.searchicon{
+    padding: 9px;
+}
+a:hover{
+    text-decoration:none;
+ }

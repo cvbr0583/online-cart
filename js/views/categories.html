@@ -1,0 +1,15 @@
+<div class="card-deck-wrapper">
+    <div class="card-deck">
+        <div class="col-xs-4" ng-repeat="cat in categories">
+            <div class="card">
+                <div class="card-block">
+                    <h4 class="card-title">{{cat.name}}</h4>
+                </div>
+                <a href="#/products/{{cat.name}}">
+                    <img src="{{cat.image}}" alt="image" width="250" height="200">
+                </a>
+            </div>
+            <div><br><br></div>
+        </div>
+    </div>
+</div>

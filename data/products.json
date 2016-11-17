@@ -1,0 +1,11 @@
+[
+  {"id":"1","name":"Roll Puff","image":"assects/images/pf1.jpg"},
+  {"id":"1","name":"Egg Puff","image":"assects/images/pf2.jpg"},
+  {"id":"1","name":"Veg Puff","image":"assects/images/pf3.jpg"},
+  {"id":"2","name":"Veg Burger","image":"assects/images/bg1.jpg"},
+  {"id":"2","name":"Chicken Majestic Burger","image":"assects/images/bg2.jpg"},
+  {"id":"1","name":"Chicken Burger","image":"assects/images/bg3.jpg"},
+  {"id":"1","name":"Chicken Pakodi","image":"assects/images/sn1.jpg"},
+  {"id":"1","name":"Pakodi","image":"assects/images/sn2.jpg"},
+  {"id":"1","name":"Bajji","image":"assects/images/sn3.jpg"}
+]
